@@ -220,6 +220,8 @@ with open(indexfile, "w") as file1:
 	temphead = replacevar(temphead)
 	temphead = replacevarp(temphead)
 	file1.writelines(temphead) # writer header template
+	if not os.path.isdir('res/mds/'):
+		os.mkdir('res/mds/')
 for cat in categories: # for each category
 	with open('res/mds/' + cat + ".md", "w") as file1:
 		tempcatupt = tempcatup.replace("%category%", cat)
