@@ -30,18 +30,18 @@ Provide a direct link to your zipped plugin to enable automatic updating.<br>
 - [Plugin Naming Convention](%webroot%%indexfile%#plugin-naming-convention)
 
 [Plugin Download](%webroot%%indexfile%#plugin-download)
-- [Cheats](%webroot%res/cheats.md)
-- [Gameplay](%webroot%res/gameplay.md)
-- [Graphics](%webroot%res/graphics.md)
-- [Outfits](%webroot%res/outfits.md)
-- [Overhauls](%webroot%res/overhauls.md)
-- [Overwrites](%webroot%res/overwrites.md)
-- [Patches](%webroot%res/patches.md)
-- [Races](%webroot%res/races.md)
-- [Ships](%webroot%res/ships.md)
-- [Story](%webroot%res/story.md)
-- [Weapons](%webroot%res/weapons.md)
-- [Uncategorized](%webroot%res/uncategorized.md)
+- [Cheats](%webroot%res/mds/cheats.md)
+- [Gameplay](%webroot%res/mds/gameplay.md)
+- [Graphics](%webroot%res/mds/graphics.md)
+- [Outfits](%webroot%res/mds/outfits.md)
+- [Overhauls](%webroot%res/mds/overhauls.md)
+- [Overwrites](%webroot%res/mds/overwrites.md)
+- [Patches](%webroot%res/mds/patches.md)
+- [Races](%webroot%res/mds/races.md)
+- [Ships](%webroot%res/mds/ships.md)
+- [Story](%webroot%res/mds/story.md)
+- [Weapons](%webroot%res/mds/weapons.md)
+- [Uncategorized](%webroot%res/mds/uncategorized.md)
 
 ---
 
@@ -123,9 +123,9 @@ To keep these files related, you must give them the same name.
 
 All Plugins (%allplugins%)
 
-[Cheats](%webroot%res/cheats.md) (%cheats%) | [Gameplay](%webroot%res/gameplay.md) (%gameplay%) | [Graphics](%webroot%res/graphics.md) (%graphics%) | [Outfits](%webroot%res/outfits.md) (%outfits%)<br>
-[Overhauls](%webroot%res/overhauls.md) (%overhauls%) | [Overwrites](%webroot%res/overwrites.md) (%overwrites%) | [Patches](%webroot%res/patches.md) (%patches%) | [Races](%webroot%res/races.md) (%races%)<br>
-[Ships](%webroot%res/ships.md) (%ships%) | [Story](%webroot%res/story.md) (%story%) | [Weapons](%webroot%res/weapons.md) (%weapons%) | [Uncategorized](%webroot%res/uncategorized.md) (%uncategorized%)<br>
+[Cheats](%webroot%res/mds/cheats.md) (%cheats%) | [Gameplay](%webroot%res/mds/gameplay.md) (%gameplay%) | [Graphics](%webroot%res/mds/graphics.md) (%graphics%) | [Outfits](%webroot%res/mds/outfits.md) (%outfits%)<br>
+[Overhauls](%webroot%res/mds/overhauls.md) (%overhauls%) | [Overwrites](%webroot%res/mds/overwrites.md) (%overwrites%) | [Patches](%webroot%res/mds/patches.md) (%patches%) | [Races](%webroot%res/mds/races.md) (%races%)<br>
+[Ships](%webroot%res/mds/ships.md) (%ships%) | [Story](%webroot%res/mds/story.md) (%story%) | [Weapons](%webroot%res/mds/weapons.md) (%weapons%) | [Uncategorized](%webroot%res/mds/uncategorized.md) (%uncategorized%)<br>
 
 
 
