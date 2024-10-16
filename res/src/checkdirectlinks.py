@@ -136,12 +136,6 @@ for entry in entries:
 						linklastmodified = datetime.strptime(commitdate, '%Y-%m-%d %H:%M:%S')
 						with open("res/last_commits.txt", "a") as commit:
 							commit.writelines(pluginname + "|" + str(linklastmodified.date()) + "\n")
-		if linksize != "FALSE":
-			if linksize >= 307200:
-				print("ABORTING: directlink is bigger than 300 mb")
-				with open('res/errorlog.txt', 'a') as errorfile:
-					errorfile.writelines("file size for plugin: " + pluginname + " is bigger than 300mb, needs to be rised\n")
-				continue
 				
 		if linklastmodified != "FALSE":
 			if assetlastmodified != "FALSE":
