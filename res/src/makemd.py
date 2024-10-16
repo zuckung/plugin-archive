@@ -223,7 +223,7 @@ with open(indexfile, "w") as file1:
 	if not os.path.isdir('res/mds/'):
 		os.mkdir('res/mds/')
 for cat in categories: # for each category
-	with open('res/mds/' + lower(cat) + ".md", "w") as file1:
+	with open('res/mds/' + cat.lower() + ".md", "w") as file1:
 		tempcatupt = tempcatup.replace("%category%", cat)
 		tempcatupt = replacevar(tempcatupt)
 		tempcatupt = replacevarp(tempcatupt)
