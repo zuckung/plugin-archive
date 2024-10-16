@@ -300,7 +300,7 @@ for cat in categories: # for each category
 					if directlink != "N/A": # check if plugin has direct updating and insert png
 						updatecheck = "<img src='../img/check.png' width='15' ></img>"
 					else:
-						updatecheck = "<img src='..//img/cross.png' width='15' ></img>"
+						updatecheck = "<img src='../img/cross.png' width='15' ></img>"
 				assetfile =  withdots + ".zip"
 				
 				# get last commit from the plugin repo
