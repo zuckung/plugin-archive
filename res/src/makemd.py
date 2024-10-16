@@ -221,7 +221,7 @@ with open(indexfile, "w") as file1:
 	temphead = replacevarp(temphead)
 	file1.writelines(temphead) # writer header template
 for cat in categories: # for each category
-	with open('res/' + cat + ".md", "w") as file1:
+	with open('res/mds/' + cat + ".md", "w") as file1:
 		tempcatupt = tempcatup.replace("%category%", cat)
 		tempcatupt = replacevar(tempcatupt)
 		tempcatupt = replacevarp(tempcatupt)
