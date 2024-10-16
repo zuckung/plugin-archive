@@ -1,0 +1,669 @@
+# mission "bunrodea defense job 1"
+# mission "bunrodea defense job 2"
+# mission "bunrodea defense job 3"
+# mission "bunrodea rush delivery 1"
+# mission "bunrodea rush delivery 2"
+# mission "bunrodea rush delivery 3"
+# mission "bunrodea rush delivery 4"
+# mission "bunrodea cargo transport 1"
+# mission "bunrodea cargo transport 2"
+# mission "bunrodea cargo transport 3"
+# mission "bunrodea cargo transport 4"
+# mission "bunrodea passengers 1"
+# mission "bunrodea passengers 2"
+# mission "bunrodea passengers 3"
+# mission "bunrodea passengers 4"
+# mission "bunrodea criminal 1"
+# mission "bunrodea criminal 2"
+# mission "bunrodea criminal 3"
+# mission "bunrodea snap fly 1"
+# mission "bunrodea snap fly 2"
+# mission "bunrodea snap fly 3"
+# mission "bunrodea flonkball 1"
+# mission "bunrodea flonkball 2"
+
+
+
+mission "bunrodea defense job 1"
+	job
+	repeat
+	name "Destroy a Korath ship"
+	description "A Korath ship has entered Bunrodea territory at Genta Bo. Destroy it. The payment is <payment>."
+	source 
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Genta Bo"
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	npc kill
+		government "Korath"
+		personality heroic nemesis staying
+		system "Genta Bo"
+		fleet
+			names "korath"
+			cargo 100
+			variant 2
+				"Palavret"
+				"'olofez" 2
+			variant 1
+				"Rano'erek"
+				"'olofez" 2
+		dialog "You have destroyed the Korath ship."
+	on complete
+		dialog `You receive a message from the Bunrodean authorities, congratulating for your victory over the Korath ship.`
+		payment 100000
+		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Erabu)" += 10
+		"reputation: Bunrodea (Guard)" += 10
+		"reputation: Bunrodea (Megasa)" += 10
+
+
+mission "bunrodea defense job 2"
+	job
+	repeat
+	name "Destroy a Korath fleet"
+	description "A Korath fleet has entered Bunrodean territory at Era Natta. Destroy it. The payment is <payment>."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Era Natta"
+	to offer
+		has "bunrodea defense 2: done"
+		random < 50
+	npc kill
+		government "Korath"
+		personality heroic nemesis staying
+		system "Era Natta"
+		fleet
+			names "korath"
+			cargo 100
+			variant 1
+				"Palavret" 3
+				"'olofez" 6
+			variant 1
+				"Rano'erek" 3
+				"'olofez" 6
+			variant 1
+				"Rano'erek"
+				"Palavret" 2
+				"'olofez" 6
+		dialog "You have destroyed the Korath fleet."
+	on complete
+		payment 200000
+		dialog `You receive a message from the Bunrodea authorities, congratulating for your victory over the Korath fleet.`
+		"reputation: Bunrodea" += 30
+		"reputation: Bunrodea (Erabu)" += 30
+		"reputation: Bunrodea (Guard)" += 30
+		"reputation: Bunrodea (Megasa)" += 30
+
+
+mission "bunrodea defense job 3"
+	job
+	repeat
+	name "Destroy a Korath worldship"
+	description "A Korath worldship entered Bunrodean territory at Eneva Katta. Destroy it. The payment is <payment>."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	waypoint "Eneva Katta"
+	to offer
+		has "bunrodea defense 3: done"
+		random < 25
+	npc kill
+		government "Korath"
+		personality heroic nemesis staying
+		system "Eneva Katta"
+		fleet
+			names "korath"
+			cargo 100
+			variant 1
+				"Rai'alorej"
+			variant 1
+				"Lor'kas Ik 577 (Jump)"
+			variant 1
+				"Kas'lor Ik 582 (Jump)"
+			variant 1
+				"Lor'nag Ik 590 (Troop Transport)"
+			variant 25
+				"Ra'gru Ik 618"
+			variant 20
+				"Ra'at Ik 621"
+		dialog "You have destroyed the Korath worldship."
+	on complete
+		payment 300000
+		dialog `You receive a message from the Bunrodea authorities, congratulating for your victory over the Korath worldship.`
+		"reputation: Bunrodea" += 40
+		"reputation: Bunrodea (Erabu)" += 40
+		"reputation: Bunrodea (Guard)" += 40
+		"reputation: Bunrodea (Megasa)" += 40
+
+
+mission "bunrodea rush delivery 1"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 10 100 
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 3 12
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 25000
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea rush delivery 2"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 80 250
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 3 12
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 25000
+		"reputation: Bunrodea" += 8
+		"reputation: Bunrodea (Erabu)" += 8
+		"reputation: Bunrodea (Guard)" += 8
+		"reputation: Bunrodea (Megasa)" += 8
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea rush delivery 3"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 220 600 
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 3 12
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 25000
+		"reputation: Bunrodea" += 9
+		"reputation: Bunrodea (Erabu)" += 9
+		"reputation: Bunrodea (Guard)" += 9
+		"reputation: Bunrodea (Megasa)" += 9
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea rush delivery 4"
+	name "Rush delivery to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo random 600 1200
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 3 12
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 25000
+		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Erabu)" += 10
+		"reputation: Bunrodea (Guard)" += 10
+		"reputation: Bunrodea (Megasa)" += 10
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea cargo transport 1"
+	job
+	repeat
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 10 100
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 1 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 5
+		"reputation: Bunrodea (Erabu)" += 5
+		"reputation: Bunrodea (Guard)" += 5
+		"reputation: Bunrodea (Megasa)" += 5
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea cargo transport 2"
+	job
+	repeat
+	name "Huge delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 80 250
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 1 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 6
+		"reputation: Bunrodea (Erabu)" += 6
+		"reputation: Bunrodea (Guard)" += 6
+		"reputation: Bunrodea (Megasa)" += 6
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea cargo transport 3"
+	job
+	repeat
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 220 600
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea cargo transport 4"
+	job
+	repeat
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 600 1200
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 8
+		"reputation: Bunrodea (Erabu)" += 8
+		"reputation: Bunrodea (Guard)" += 8
+		"reputation: Bunrodea (Megasa)" += 8
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea passengers 1"
+	name "Transport a family to <planet>"
+	job
+	repeat
+	description "Bring a family of <bunks> to <destination>. Payment is <payment>."
+	passengers 3 8 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 5
+		"reputation: Bunrodea (Erabu)" += 5
+		"reputation: Bunrodea (Guard)" += 5
+		"reputation: Bunrodea (Megasa)" += 5
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "bunrodea passengers 2"
+	name "Transport scientists to <planet>"
+	job
+	repeat
+	description "Bring <bunks> scientists to a conference on <destination>. Payment is <payment>."
+	passengers 8 25 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 6
+		"reputation: Bunrodea (Erabu)" += 6
+		"reputation: Bunrodea (Guard)" += 6
+		"reputation: Bunrodea (Megasa)" += 6
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "bunrodea passengers 3"
+	name "Transport workers to <planet>"
+	job
+	repeat
+	description "Bring <bunks> workers to <destination>. Payment is <payment>."
+	passengers 25 60 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "bunrodea passengers 4"
+	name "Transport workers to <planet>"
+	job
+	repeat
+	description "Bring <bunks> workers to <destination>. Payment is <payment>."
+	passengers 50 90 .9
+	to offer
+		has "bunrodea defense: done"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 8
+		"reputation: Bunrodea (Erabu)" += 8
+		"reputation: Bunrodea (Guard)" += 8
+		"reputation: Bunrodea (Megasa)" += 8
+		dialog phrase "generic passenger dropoff payment"
+
+
+mission "bunrodea criminal 1"
+	name "Track down and execute a convicted criminal"
+	description "Locate and execute a convicted criminal in the nearby systems by <day>. The payment is <payment>."
+	repeat
+	job
+	deadline 25
+	to offer
+		has "culture bunrodea criminal: declined"
+		random < 35
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	npc kill
+		government "Bunrodea (Criminal)"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "bunrodea"
+			cargo 1
+			variant 1
+				"Kaiken"
+		dialog "You have killed the criminal."
+	on complete
+		payment 75000
+		dialog `You receive the payment from the Bunrodean authorities for the execution of the criminal.`
+		"reputation: Bunrodea" += 12
+		"reputation: Bunrodea (Erabu)" += 12
+		"reputation: Bunrodea (Guard)" += 12
+		"reputation: Bunrodea (Megasa)" += 12
+
+
+mission "bunrodea criminal 2"
+	name "Track down and execute convicted criminals"
+	description "Locate and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
+	repeat
+	job
+	deadline 25
+	to offer
+		has "culture bunrodea criminal: declined"
+		random < 35
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	npc kill
+		government "Bunrodea (Criminal)"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "bunrodea"
+			cargo 1
+			variant 1
+				"Tanto"
+		dialog "You have killed the criminals."
+	on complete
+		payment 100000
+		dialog `You receive the payment from the Bunrodean authorities for the execution of the criminal.`
+		"reputation: Bunrodea" += 13
+		"reputation: Bunrodea (Erabu)" += 13
+		"reputation: Bunrodea (Guard)" += 13
+		"reputation: Bunrodea (Megasa)" += 13
+
+
+mission "bunrodea criminal 3"
+	name "Locate and execute convicted criminals"
+	description "Locate and execute a group of convicted criminals in the nearby systems by <day>. The payment is <payment>."
+	repeat
+	job
+	deadline 25
+	to offer
+		has "culture bunrodea criminal: declined"
+		random < 35
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	npc kill
+		government "Bunrodea (Criminal)"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "bunrodea"
+			cargo 1
+			variant 1
+				"Tekkan"
+		dialog "You have killed the criminal."
+	on complete
+		payment 125000
+		dialog `You receive the payment from the Bunrodean authorities for the execution of the criminal.`
+		"reputation: Bunrodea" += 14
+		"reputation: Bunrodea (Erabu)" += 14
+		"reputation: Bunrodea (Guard)" += 14
+		"reputation: Bunrodea (Megasa)" += 14
+
+
+mission "bunrodea snap fly 1"
+	name "Rush delivery of snap fly meat to <planet>"
+	job
+	repeat
+	deadline
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Snap Fly meat" 100 300
+	to offer
+		has "bunrodea defense: done"
+		has "culture bunrodea snap fly: declined"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 3 12
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 25000
+		"reputation: Bunrodea" += 8
+		"reputation: Bunrodea (Erabu)" += 8
+		"reputation: Bunrodea (Guard)" += 8
+		"reputation: Bunrodea (Megasa)" += 8
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea snap fly 2"
+	job
+	repeat
+	name "Huge delivery Snap Fly meat to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Snap Fly meat" 100 300
+	to offer
+		has "bunrodea defense: done"
+		has "culture bunrodea snap fly: declined"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 1 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 6
+		"reputation: Bunrodea (Erabu)" += 6
+		"reputation: Bunrodea (Guard)" += 6
+		"reputation: Bunrodea (Megasa)" += 6
+		dialog phrase "generic cargo delivery payment"
+
+
+mission "bunrodea snap fly 3"
+	name "Transport fly hunters to <planet>"
+	job
+	repeat
+	description "Bring <bunks> fly hunters to <destination>. Payment is <payment>."
+	passengers 15 35 .9
+	to offer
+		has "bunrodea defense: done"
+		has "culture bunrodea snap fly: declined"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic passenger dropoff payment" 
+
+
+mission "bunrodea flonkball 1"
+	name "Transport Flonkball team to <planet>"
+	job
+	repeat
+	description "Bring <bunks> players of a Flonkball team to <destination>. Payment is <payment>."
+	passengers 25 35 .9
+	to offer
+		has "bunrodea defense: done"
+		has "culture bunrodea flonkball: declined"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic passenger dropoff payment" 
+
+
+mission "bunrodea flonkball 2"
+	name "Transport Flonkball fans to <planet>"
+	job
+	repeat
+	description "Bring <bunks> fans to a Flonkball match at <destination>. Payment is <payment>."
+	passengers 30 50 .9
+	to offer
+		has "bunrodea defense: done"
+		has "culture bunrodea flonkball: declined"
+		random < 75
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination
+		distance 2 7
+		government "Bunrodea" "Bunrodea (Guard)"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		"reputation: Bunrodea" += 7
+		"reputation: Bunrodea (Erabu)" += 7
+		"reputation: Bunrodea (Guard)" += 7
+		"reputation: Bunrodea (Megasa)" += 7
+		dialog phrase "generic passenger dropoff payment" 

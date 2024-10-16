@@ -1,0 +1,148 @@
+# 15 substitutions for alive
+# 15 substitutions for dead
+# mission show person status
+# mission kill em all reward
+# outfit author slaughtering trophy
+# government "Author"
+
+
+substitutions
+	"<mich>" "alive"
+		"person destroyed: Michael Zahniser (C)" == 0
+	"<capn>" "alive"
+		"person destroyed: Cap'n Pester (C)" == 0
+	"<mara>" "alive"
+		"person destroyed: Marauding Max (C)" == 0
+	"<capt>" "alive"
+		"person destroyed: Captain Nate (C)" == 0
+	"<tran>" "alive"
+		"person destroyed: Tranquility (C)" == 0
+	"<powe>" "alive"
+		"person destroyed: Power of the People (C)" == 0
+	"<loca>" "alive"
+		"person destroyed: Local God (C)" == 0
+	"<subs>" "alive"
+		"person destroyed: Subsidurial (C)" == 0
+	"<prot>" "alive"
+		"person destroyed: Prototype B3-CC4 (C)" == 0
+	"<rais>" "alive"
+		"person destroyed: Rais Iris XVIII (C)" == 0
+	"<zitc>" "alive"
+		"person destroyed: Zitchas (C)" == 0
+	"<bric>" "alive"
+		"person destroyed: Brick (C)" == 0
+	"<gefu>" "alive"
+		"person destroyed: Gefullte Taubenbrust (C)" == 0
+	"<mast>" "alive"
+		"person destroyed: MasterOfGrey (C)" == 0
+	"<patr>" "alive"
+		"person destroyed: Patrol Team (C)" == 0
+
+
+	"<mich>" "dead"
+		"person destroyed: Michael Zahniser (C)" == 1
+	"<capn>" "dead"
+		"person destroyed: Cap'n Pester (C)" == 1
+	"<mara>" "dead"
+		"person destroyed: Marauding Max (C)" == 1
+	"<capt>" "dead"
+		"person destroyed: Captain Nate (C)" == 1
+	"<tran>" "dead"
+		"person destroyed: Tranquility (C)" == 1
+	"<powe>" "dead"
+		"person destroyed: Power of the People (C)" == 1
+	"<loca>" "dead"
+		"person destroyed: Local God (C)" == 1
+	"<subs>" "dead"
+		"person destroyed: Subsidurial (C)" == 1
+	"<prot>" "dead"
+		"person destroyed: Prototype B3-CC4 (C)" == 1
+	"<rais>" "dead"
+		"person destroyed: Rais Iris XVIII (C)" == 1
+	"<zitc>" "dead"
+		"person destroyed: Zitchas (C)" == 1
+	"<bric>" "dead"
+		"person destroyed: Brick (C)" == 1
+	"<gefu>" "dead"
+		"person destroyed: Gefullte Taubenbrust (C)" == 1
+	"<mast>" "dead"
+		"person destroyed: MasterOfGrey (C)" == 1
+	"<patr>" "dead"
+		"person destroyed: Patrol Team (C)" == 1
+
+mission "show person status"
+	job
+	repeat
+	name "(Show Person Ship List)"	
+	description "Shows a list of all Person Ships and if they are killed or not. Also shows where to find them and with which ships."
+	source Earth
+	on accept
+		conversation
+			`Person Ship List`
+			``
+			`Status	"Name" (Source | Shiptype/s)`
+			`<mich>	"Michael Zahniser" (found everywhere | Kestrel + Finch)`
+			`<capn>	"Cap'n Pester" (found everywhere | Quarg Wardragon)`
+			`<mara>	"Marauding Max" (found everywhere | Marauder Fury)`
+			`<capt>	"Captain Nate" (found everywhere | Vanguard)	`
+			`<tran>	"Tranquility" (found everywhere | Lampyrid)	`
+			`<powe>	"Power of the People" (found everywhere | Modified Osprey)`
+			`<loca>	"Local God" (found everywhere | Ursa Polaris)`
+			`<subs>	"Subsidurial" (found in uninhabited | Subsidurial)`
+			`<prot>	"Prototype B3-CC4" (found in Ember Waste | Shooting Star)`
+			`<rais>	"Rais Iris XVIII" (found everywhere | Marauder Bactrian)`
+			`<zitc>	"Zitchas" (found in Ember Waste | Heron + Peregrine + 4x Petrel + 32x Tern)`
+			`<bric>	"Brick" (found everywhere | 3x Modified Boxwing)`
+			`<gefu>	"Gefullte Taubenbrust" (found everywhere | Modified Battleship)`
+			`<mast>	"MasterOfGrey" (found in Hai space | Modified Ladybug)`
+			`<patr>	"Patrol Team" (found everywhere | 6x Waverider)`
+			``
+			`captureable.person.ships disables the old person ships, and creates nearly identical new ones. This is done because of the heavy problems with modifying npc/fleets. Anyways, just the names got changed. They have a "(C)" behind their names. So persons ships killed prior installing this plugin got re-added. The maximum spawn time, for a person ship in the system you are in, is 10 minutes.`
+	on daily
+		fail
+
+
+mission "kill em all reward"
+	invisible
+	landing
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		"person destroyed: Michael Zahniser (C)" == 1
+		"person destroyed: Cap'n Pester (C)" == 1
+		"person destroyed: Marauding Max (C)" == 1
+		"person destroyed: Captain Nate (C)" == 1
+		"person destroyed: Tranquility (C)" == 1
+		"person destroyed: Power of the People (C)" == 1
+		"person destroyed: Local God (C)" == 1
+		"person destroyed: Subsidurial (C)" == 1
+		"person destroyed: Prototype B3-CC4 (C)" == 1
+		"person destroyed: Rais Iris XVIII (C)" == 1
+		"person destroyed: Zitchas (C)" == 1
+		"person destroyed: Brick (C)" == 1
+		"person destroyed: Gefullte Taubenbrust (C)" == 1
+		"person destroyed: MasterOfGrey (C)" == 1
+		"person destroyed: Patrol Team (C)" == 1
+	on offer
+		outfit "Author Slaughtering Trophy"
+		conversation
+			scene "outfit/gold_trophy"
+			`As you leave your ship at the spaceport, you see a courier ship land nearby at suicidal speed. Before the engines have even completely shut down, a man jumps out of the airlock and walks purposefully towards you.`
+			`"Captain <last>, I have a package for you. Would you please sign here."`
+			`You have barely finished signing the last letter of your name when the courier pushes the package into your arms and hurries back to his ship. When you open the package, the first thing you see is a massive, golden trophy, which distracts you so much that you almost miss the enclosed letter. Who would send you something like this?`
+			`"Dear captain <last>, it was with great joy that I heard about your victories over the Author captains. Those scoundrels don't deserve any better. They never wanted to take me in! Just thinking about that evening in the bar on Starcross makes my blood boil. Well, the matter is now settled. Enclosed is a token of my appreciation. I wish you all the best. Kind regards, Captain Zuckung"`
+			`Even though the sender of the package seems crazy to you, you decide to keep this wonderful trophy.`
+				decline
+
+
+outfit "Author Slaughtering Trophy"
+	category "Unique"
+	"unique" 1
+	"unplunderable" 1
+	thumbnail "outfit/gold_trophy"
+	cost 60000
+	description `A wonderful trophy for slaughtering all Author ship captains. It is a gift by a mysterious man named 'Zuckung', who wanted to see them dead. It looks like he was jealous because they didn't let him join their ranks. Or something like that.`
+
+
+government "Author"
+	"fine" 0 
