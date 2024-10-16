@@ -264,7 +264,7 @@ for cat in categories: # for each category
 					iconpath = iconpath.replace("(", "%28")
 					iconpath = iconpath.replace(")", "%29")
 					iconpath = iconpath.replace(",", "%2C")
-					iconpng = "<img src='"+ iconpath + "/icon.png' height='100'></img><br>\n"
+					iconpng = "<img src='../../"+ iconpath + "/icon.png' height='100'></img><br>\n"
 				else:
 					iconpng = ""
 				# get last modified date and size from the assetfiles
