@@ -30,18 +30,18 @@ Provide a direct link to your zipped plugin to enable automatic updating.<br>
 - [Plugin Naming Convention](%webroot%%indexfile%#plugin-naming-convention)
 
 [Plugin Download](%webroot%%indexfile%#plugin-download)
-- [Cheats](%webroot%cheats.md)
-- [Gameplay](%webroot%gameplay.md)
-- [Graphics](%webroot%graphics.md)
-- [Outfits](%webroot%outfits.md)
-- [Overhauls](%webroot%overhauls.md)
-- [Overwrites](%webroot%overwrites.md)
-- [Patches](%webroot%patches.md)
-- [Races](%webroot%races.md)
-- [Ships](%webroot%ships.md)
-- [Story](%webroot%story.md)
-- [Weapons](%webroot%weapons.md)
-- [Uncategorized](%webrootuncategorized.md)
+- [Cheats](%webroot%res/cheats.md)
+- [Gameplay](%webroot%res/gameplay.md)
+- [Graphics](%webroot%res/graphics.md)
+- [Outfits](%webroot%res/outfits.md)
+- [Overhauls](%webroot%res/overhauls.md)
+- [Overwrites](%webroot%res/overwrites.md)
+- [Patches](%webroot%res/patches.md)
+- [Races](%webroot%res/races.md)
+- [Ships](%webroot%res/ships.md)
+- [Story](%webroot%res/story.md)
+- [Weapons](%webroot%res/weapons.md)
+- [Uncategorized](%webroot%res/uncategorized.md)
 
 ---
 
@@ -123,9 +123,10 @@ To keep these files related, you must give them the same name.
 
 All Plugins (%allplugins%)
 
-[Cheats](%webroot%cheats.md) (%cheats%) | [Gameplay](%webroot%gameplay.md) (%gameplay%) | [Graphics](%webroot%graphics.md) (%graphics%) | [Outfits](%webroot%outfits.md) (%outfits%)<br>
-[Overhauls](%webroot%overhauls.md) (%overhauls%) | [Overwrites](%webroot%overwrites.md) (%overwrites%) | [Patches](%webroot%patches.md) (%patches%) | [Races](%webroot%races.md) (%races%)<br>
-[Ships](%webroot%ships.md) (%ships%) | [Story](%webroot%story.md) (%story%) | [Weapons](%webroot%weapons.md) (%weapons%) | [Uncategorized](%webroot%uncategorized.md) (%uncategorized%)<br>
+[Cheats](%webroot%res/cheats.md) (%cheats%) | [Gameplay](%webroot%res/gameplay.md) (%gameplay%) | [Graphics](%webroot%res/graphics.md) (%graphics%) | [Outfits](%webroot%res/outfits.md) (%outfits%)<br>
+[Overhauls](%webroot%res/overhauls.md) (%overhauls%) | [Overwrites](%webroot%res/overwrites.md) (%overwrites%) | [Patches](%webroot%res/patches.md) (%patches%) | [Races](%webroot%res/races.md) (%races%)<br>
+[Ships](%webroot%res/ships.md) (%ships%) | [Story](%webroot%res/story.md) (%story%) | [Weapons](%webroot%res/weapons.md) (%weapons%) | [Uncategorized](%webroot%res/uncategorized.md) (%uncategorized%)<br>
+
 
 
 %%% template for category below this point %%%
