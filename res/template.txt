@@ -141,8 +141,6 @@ All Plugins (%allplugins%)
  %pluginhere%
 
 
-[back to top](%webroot%%category%.md#%category%)
-
 
 %%% template for plugin entry below this point %%%
 

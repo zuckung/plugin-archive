@@ -111,7 +111,7 @@ def replacevarp(string): # replaces %variables% in plugin and category template 
 		websitelink = website
 	string = string.replace("%website%", websitelink)
 	string = string.replace("%websitecheck%", websitecheck)
-	string = string.replace("%category%", category.lower())
+	string = string.replace("%category%", category)
 	string = string.replace("%status%", status)
 	string = string.replace("%iconpng%", str(iconpng))
 	string = string.replace("%pluginnameurl%", pluginnameurl)	
@@ -298,9 +298,9 @@ for cat in categories: # for each category
 						form = " mb"
 					size = str(round(assetsize, 2)) + form
 					if directlink != "N/A": # check if plugin has direct updating and insert png
-						updatecheck = "<img src='res/img/check.png' width='15' ></img>"
+						updatecheck = "<img src='../img/check.png' width='15' ></img>"
 					else:
-						updatecheck = "<img src='res/img/cross.png' width='15' ></img>"
+						updatecheck = "<img src='..//img/cross.png' width='15' ></img>"
 				assetfile =  withdots + ".zip"
 				
 				# get last commit from the plugin repo
