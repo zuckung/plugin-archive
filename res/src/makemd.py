@@ -202,7 +202,7 @@ for each in  newslist:
 		if ncat == "N/A":
 			ncat = "uncategorized"
 		# got variables now: ndate, nnew_or_updated, nname, nauthor, ncat, define how a news line should look
-		nline = ndate + " | " +  nnew_or_update + " Plugin '" + nname + "' by " + nauthor + " | [" + ncat + "](" + webroot + ncat + ".md)<br>\n"
+		nline = ndate + " | " +  nnew_or_update + " Plugin '" + nname + "' by " + nauthor + " | [" + ncat + "](" + webroot + 'res/mds/' + ncat + ".md)<br>\n"
 	else: # no listfile found, plugin must got deleted or renamed
 		nline = ndate + " | " + nnew_or_update + " Plugin " + nname + " | Plugin got deleted or renamed <br>\n"
 	allnews = allnews + nline
@@ -223,7 +223,7 @@ with open(indexfile, "w") as file1:
 	if not os.path.isdir('res/mds/'):
 		os.mkdir('res/mds/')
 for cat in categories: # for each category
-	with open('res/mds/' + cat + ".md", "w") as file1:
+	with open('res/mds/' + lower(cat) + ".md", "w") as file1:
 		tempcatupt = tempcatup.replace("%category%", cat)
 		tempcatupt = replacevar(tempcatupt)
 		tempcatupt = replacevarp(tempcatupt)
