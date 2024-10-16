@@ -137,11 +137,8 @@ All Plugins (%allplugins%)
 
 <p>%amount% plugins in this category.<p>
 
-<details>
 
  %pluginhere%
-
-</details>
 
 
 [back to top](%webroot%%category%.md#%category%)

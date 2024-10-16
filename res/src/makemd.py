@@ -111,7 +111,7 @@ def replacevarp(string): # replaces %variables% in plugin and category template 
 		websitelink = website
 	string = string.replace("%website%", websitelink)
 	string = string.replace("%websitecheck%", websitecheck)
-	string = string.replace("%category%", category)
+	string = string.replace("%category%", category.lower())
 	string = string.replace("%status%", status)
 	string = string.replace("%iconpng%", str(iconpng))
 	string = string.replace("%pluginnameurl%", pluginnameurl)	
