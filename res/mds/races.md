@@ -20,7 +20,7 @@ All Plugins (9)
 <img src='../../Working/Core Mining Inc/icon.png' height='100'></img><br>
 
 
-[Core.Mining.Inc.zip](https://github.com/zuckung/plugin-archive/releases/download/Latest/Core.Mining.Inc.zip) | 310.98 kb | 2024-10-23 | [view files](https://github.com/zuckung/plugin-archive/tree/main/Working/Core%20Mining%20Inc/) <br>
+[Core.Mining.Inc.zip](https://github.com/zuckung/plugin-archive/releases/download/Latest/Core.Mining.Inc.zip) | 312.11 kb | 2024-10-23 | [view files](https://github.com/zuckung/plugin-archive/tree/main/Working/Core%20Mining%20Inc/) <br>
 Author: DJF113 | Category: Races <br>
 [https://github.com/DJF113/Core-Mining-Inc](https://github.com/DJF113/Core-Mining-Inc) (last commit 2024-10-03) <br>
 
@@ -229,6 +229,6 @@ Daily update check: <img src='../img/check.png' width='15' ></img><br>
 
 
 
-[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/Races.md#graphics)
+[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#graphics)
 
 

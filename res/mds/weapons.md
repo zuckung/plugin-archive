@@ -15,6 +15,6 @@ All Plugins (9)
  
 
 
-[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/Weapons.md#story)
+[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#story)
 
 

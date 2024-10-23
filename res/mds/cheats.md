@@ -173,6 +173,6 @@ Daily update check: <img src='../img/check.png' width='15' ></img><br>
 
 
 
-[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/Cheats.md#)
+[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/.md#)
 
 

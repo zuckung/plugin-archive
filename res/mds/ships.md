@@ -15,6 +15,6 @@ All Plugins (9)
  
 
 
-[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/Ships.md#races)
+[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#races)
 
 

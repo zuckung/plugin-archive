@@ -15,6 +15,6 @@ All Plugins (9)
  
 
 
-[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/Outfits.md#graphics)
+[back to top](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#graphics)
 
 
