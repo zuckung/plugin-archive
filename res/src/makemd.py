@@ -137,25 +137,25 @@ for entry in entries:
 			cat = file1.readline().split("=")[1].replace("\n", "")
 			if cat == "cheats": # count plugins in category
 				cheats += 1
-			elif cat == "gameplay":
+			elif cat.lower() == "gameplay":
 				gameplay += 1
-			elif cat == "graphics":
+			elif cat.lower() == "graphics":
 				graphics += 1
-			elif cat == "outfits":
+			elif cat.lower() == "outfits":
 				outfits += 1
-			elif cat == "overhauls":
+			elif cat.lower() == "overhauls":
 				overhauls += 1
-			elif cat == "overwrites":
+			elif cat.lower() == "overwrites":
 				overwrites += 1
-			elif cat == "patches":
+			elif cat.lower() == "patches":
 				patches += 1
-			elif cat == "races":
+			elif cat.lower() == "races":
 				races += 1
-			elif cat == "ships":
+			elif cat.lower() == "ships":
 				ships += 1
-			elif cat == "story":
+			elif cat.lower() == "story":
 				story += 1
-			elif cat == "weapons":
+			elif cat.lower() == "weapons":
 				weapons += 1
 			else:
 				uncategorized += 1
