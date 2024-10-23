@@ -1,4 +1,4 @@
-additional.command.buttons.radial|2024-10-11
+additional.command.buttons.radial|2024-10-15
 additional.command.buttons|2024-06-07
 automata.destruction.0percent|2024-06-07
 automata.in.human.space|2024-09-24
