@@ -9,7 +9,7 @@ categories = ["Cheats", "Gameplay", "Graphics", "Outfits", "Overhauls", "Overwri
 plist = []
 
 # giving github enough Time for the zip uploads
-#time.sleep(600)
+time.sleep(600)
 
 # read paths and files
 with open("res/config.txt") as f:
