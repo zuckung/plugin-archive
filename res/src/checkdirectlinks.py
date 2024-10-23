@@ -91,7 +91,17 @@ for entry in entries:
 			response.raise_for_status()
 		except requests.exceptions.HTTPError as err:
 			print(err)
-			assetlastmodified = "FALSE"
+			print('Retrying!')
+			try:
+				response = requests.head(assetfullpath + withdots + ".zip", allow_redirects=True)
+				response.raise_for_status()
+			except requests.exceptions.HTTPError as err:
+				print(err)
+				assetlastmodified = "FALSE"
+			else:
+				modif = response.headers['Last-Modified']
+				datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
+				assetlastmodified = datetime_object
 		else:
 			modif = response.headers['Last-Modified']
 			datetime_object = datetime.strptime(modif, '%a, %d %b %Y %H:%M:%S %Z')
