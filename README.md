@@ -5,8 +5,8 @@
 (latest 15 entries):
 <table><tr><td width=800>
 
-2024-10-23 | new Plugin 'Swiftclaws.additional.command.buttons' by swiftclaw | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#Swiftclaws.additional.command.buttons)<br>
-2024-10-23 | new Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#Core-Mining-Inc)<br>
+2024-10-23 | new Plugin 'Swiftclaws.additional.command.buttons' by swiftclaw | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#swiftclaws.additional.command.buttons)<br>
+2024-10-23 | new Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#core-mining-inc)<br>
 2024-10-23 | new Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2024-10-22 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-21 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
