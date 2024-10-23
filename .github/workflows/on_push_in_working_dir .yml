@@ -34,21 +34,22 @@ jobs:
             print("The following plugins have changed:")
             for p in plugins:
               print(p)
-              os.chdir('Working')
-              corrected = p.replace(" ", ".")
-              corrected = corrected.replace("'", ".") 
-              corrected = corrected.replace(",", ".") 
-              corrected = corrected.replace("(", ".") 
-              corrected = corrected.replace(")", ".") 
-              corrected = corrected.replace("&", ".") 
-              corrected = corrected.replace(",", ".") 
-              corrected = corrected.replace("...", ".")
-              corrected = corrected.replace("..", ".") 
-              if corrected[len(corrected)-1] == ".":
-                corrected = corrected[:len(corrected)-1]
-              subprocess.run(["zip", "-r", "../" + corrected + ".zip", p],
-                stdout=subprocess.DEVNULL)
-              os.chdir('../')
+              if os.path.isdir('Working/' + p):
+                os.chdir('Working')
+                corrected = p.replace(" ", ".")
+                corrected = corrected.replace("'", ".")
+                corrected = corrected.replace(",", ".")
+                corrected = corrected.replace("(", ".")
+                corrected = corrected.replace(")", ".")
+                corrected = corrected.replace("&", ".")
+                corrected = corrected.replace(",", ".")
+                corrected = corrected.replace("...", ".")
+                corrected = corrected.replace("..", ".")
+                if corrected[len(corrected)-1] == ".":
+                  corrected = corrected[:len(corrected)-1]
+                subprocess.run(["zip", "-r", "../" + corrected + ".zip", p],
+                  stdout=subprocess.DEVNULL)
+                os.chdir('../')
           else:
             print("No plugin changes have been detected.")
         shell: python
