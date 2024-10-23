@@ -135,7 +135,7 @@ for entry in entries:
 			cat = file1.readline()
 			cat = file1.readline()
 			cat = file1.readline().split("=")[1].replace("\n", "")
-			if cat == "cheats": # count plugins in category
+			if cat.lower() == "cheats": # count plugins in category
 				cheats += 1
 			elif cat.lower() == "gameplay":
 				gameplay += 1
