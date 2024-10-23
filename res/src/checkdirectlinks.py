@@ -46,7 +46,7 @@ for entry in entries:
 		website = file1.readline().replace("website=", "")
 		x = file1.readline()
 		directlink = x.replace("directlink=","")
-	if directlink == "N/A\n": # when there is no direct
+	if directlink == "N/A\n" or directlink == "\n" or directlink == "NA\n": # when there is no direct
 		# check for website github to get last commit, then continue to next
 		website = website.strip()
 		if website[:18] == "https://github.com":

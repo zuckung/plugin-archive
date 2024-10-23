@@ -103,7 +103,7 @@ def replacevarp(string): # replaces %variables% in plugin and category template 
 	string = string.replace("%updatecheck%", updatecheck)
 	string = string.replace("%readme%", readme)
 	string = string.replace("%last_commit%", repo_last_commit)
-	if website == "N/A": # for prevent [N/A](N/A) links
+	if website == "N/A" or website == "" or website == "NA": # for prevent [N/A](N/A) links
 		websitecheck = "N/A"
 		websitelink = ""
 	else:
@@ -199,7 +199,7 @@ for each in  newslist:
 			ncat = file1.readline()
 			ncat = file1.readline()
 			ncat = file1.readline().replace("category=", "").strip()
-		if ncat == "N/A":
+		if ncat == "N/A" or ncat == "" or ncat == "NA":
 			ncat = "uncategorized"
 		# got variables now: ndate, nnew_or_updated, nname, nauthor, ncat, define how a news line should look
 		nline = ndate + " | " +  nnew_or_update + " Plugin '" + nname + "' by " + nauthor + " | [" + ncat.lower() + "](" + webroot + 'res/mds/' + ncat.lower() + ".md)<br>\n"
@@ -235,12 +235,12 @@ for cat in categories: # for each category
 			pos = p.find("\n")
 			catcomp = p[:pos]
 			catcomp = catcomp.strip() # get category for comparing with actual category
-			if catcomp == "N/A":
+			if catcomp == "N/A" or catcomp == "" or catcomp == "NA":
 				catcomp = "Uncategorized"
 			if catcomp.capitalize() == cat:
 				# get variables out of the list item p
 				description = p.split("\n")
-				if description[0] == "N/A":
+				if description[0] == "N/A" or description == "" or description == "NA":
 					category = description[0]
 				else:
 					category = description[0].capitalize() 
