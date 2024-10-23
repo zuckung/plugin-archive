@@ -1,6 +1,6 @@
-2024-10-23 | new Plugin 'Swiftclaws.additional.command.buttons' by swiftclaw | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
-2024-10-23 | new Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
-2024-10-23 | new Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2024-10-23 | new Plugin 'Swiftclaws.additional.command.buttons' by swiftclaw | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#Swiftclaws.additional.command.buttons)<br>
+2024-10-23 | new Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#Core Mining Inc)<br>
+2024-10-23 | new Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2024-10-22 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-21 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-21 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
@@ -27,21 +27,21 @@
 2024-10-12 | updated Plugin Main Plot Plus | Plugin got deleted or renamed <br>
 2024-10-11 | new Plugin expert.crew.members | Plugin got deleted or renamed <br>
 2024-10-11 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
-2024-10-11 | updated Plugin 'additional.command.buttons.radial' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2024-10-11 | updated Plugin 'additional.command.buttons.radial' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons.radial)<br>
 2024-10-10 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
 2024-10-10 | updated Plugin Atlanteans | Plugin got deleted or renamed <br>
 2024-10-10 | new Plugin Tanager | Plugin got deleted or renamed <br>
 2024-10-10 | new Plugin New Droid Regime | Plugin got deleted or renamed <br>
 2024-10-10 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-10-10 | new Plugin 'additional.command.buttons.radial' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2024-10-10 | new Plugin 'additional.command.buttons.radial' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons.radial)<br>
 2024-10-10 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 2024-10-09 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
 2024-10-09 | updated Plugin Atlanteans | Plugin got deleted or renamed <br>
 2024-10-09 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
-2024-10-09 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2024-10-09 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
 2024-10-09 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-09 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
-2024-10-08 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-10-08 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-10-08 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-08 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 2024-10-08 | updated Plugin Advanced Starts | Plugin got deleted or renamed <br>
@@ -64,7 +64,7 @@
 2024-10-04 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
 2024-10-04 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-10-03 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-10-03 | updated Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
+2024-10-03 | updated Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md#Core Mining Inc)<br>
 2024-10-03 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 2024-10-03 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
 2024-10-03 | updated Plugin sensor | Plugin got deleted or renamed <br>
@@ -105,7 +105,7 @@
 2024-09-25 | updated Plugin Eternals | Plugin got deleted or renamed <br>
 2024-09-25 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2024-09-24 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-09-24 | updated Plugin 'automata.in.human.space' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2024-09-24 | updated Plugin 'automata.in.human.space' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#automata.in.human.space)<br>
 2024-09-24 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 2024-09-24 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
 2024-09-23 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
@@ -189,7 +189,7 @@
 2024-07-16 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-07-15 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
 2024-07-14 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
-2024-07-14 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-07-14 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-07-13 | updated Plugin real.fluff | Plugin got deleted or renamed <br>
 2024-07-13 | updated Plugin galactic.capital.investment | Plugin got deleted or renamed <br>
 2024-07-12 | updated Plugin Blended Ships | Plugin got deleted or renamed <br>
@@ -216,7 +216,7 @@
 2024-06-30 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2024-06-30 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
 2024-06-29 | updated Plugin Undisclosed Plugin | Plugin got deleted or renamed <br>
-2024-06-26 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-06-26 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-06-25 | updated Plugin Arena of the worthy | Plugin got deleted or renamed <br>
 2024-06-25 | updated Plugin Undisclosed Plugin | Plugin got deleted or renamed <br>
 2024-06-22 | updated Plugin High DPI | Plugin got deleted or renamed <br>
@@ -231,17 +231,17 @@
 2024-06-11 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2024-06-10 | updated Plugin nomads | Plugin got deleted or renamed <br>
 2024-06-08 | updated Plugin Naltok | Plugin got deleted or renamed <br>
-2024-06-07 | updated Plugin 'automata.destruction.0percent' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
-2024-06-07 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
-2024-06-07 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-06-07 | updated Plugin 'automata.destruction.0percent' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#automata.destruction.0percent)<br>
+2024-06-07 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
+2024-06-07 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-06-07 | updated Plugin too.many.asteroids | Plugin got deleted or renamed <br>
 2024-06-07 | updated Plugin real.fluff | Plugin got deleted or renamed <br>
 2024-06-07 | updated Plugin galactic.capital.investment | Plugin got deleted or renamed <br>
-2024-06-07 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-06-07 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-06-07 | updated Plugin quarg.farm | Plugin got deleted or renamed <br>
 2024-06-07 | updated Plugin navy.licenses | Plugin got deleted or renamed <br>
 2024-06-07 | updated Plugin expert.crew.members | Plugin got deleted or renamed <br>
-2024-06-07 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2024-06-07 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
 2024-06-04 | updated Plugin Amphibious-Ships | Plugin got deleted or renamed <br>
 2024-06-03 | new Plugin space.fauna | Plugin got deleted or renamed <br>
 2024-06-03 | new Plugin planet.map | Plugin got deleted or renamed <br>
@@ -252,10 +252,10 @@
 2024-06-01 | updated Plugin RW Ships | Plugin got deleted or renamed <br>
 2024-06-01 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-05-30 | updated Plugin Derogam | Plugin got deleted or renamed <br>
-2024-05-29 | new Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-05-29 | new Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-05-29 | updated Plugin RW Ships | Plugin got deleted or renamed <br>
 2024-05-29 | updated Plugin Naltok | Plugin got deleted or renamed <br>
-2024-05-28 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-05-28 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-05-28 | updated Plugin RW Ships | Plugin got deleted or renamed <br>
 2024-05-28 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-05-27 | updated Plugin Naltok | Plugin got deleted or renamed <br>
@@ -291,7 +291,7 @@
 2024-05-02 | updated Plugin High DPI | Plugin got deleted or renamed <br>
 2024-05-01 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-04-30 | updated Plugin Derogam | Plugin got deleted or renamed <br>
-2024-04-30 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-04-30 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-04-29 | updated Plugin Ruin the Fun | Plugin got deleted or renamed <br>
 2024-04-29 | updated Plugin Derogam | Plugin got deleted or renamed <br>
 2024-04-28 | updated Plugin Derogam | Plugin got deleted or renamed <br>
@@ -318,12 +318,12 @@
 2024-04-13 | updated Plugin real.fluff | Plugin got deleted or renamed <br>
 2024-04-10 | new Plugin Main Plot Plus | Plugin got deleted or renamed <br>
 2024-04-10 | updated Plugin Prometheus-Flame | Plugin got deleted or renamed <br>
-2024-04-10 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-04-10 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-04-08 | updated Plugin Blended Ships | Plugin got deleted or renamed <br>
 2024-04-06 | updated Plugin Derogam | Plugin got deleted or renamed <br>
-2024-04-06 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-04-06 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-04-05 | updated Plugin galactic.capital.investment | Plugin got deleted or renamed <br>
-2024-04-04 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-04-04 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-04-04 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-04-04 | new Plugin Sounds Of Endless Sky | Plugin got deleted or renamed <br>
 2024-04-03 | updated Plugin Naltok | Plugin got deleted or renamed <br>
@@ -341,7 +341,7 @@
 2024-03-27 | updated Plugin expert.crew.members | Plugin got deleted or renamed <br>
 2024-03-24 | updated Plugin High DPI | Plugin got deleted or renamed <br>
 2024-03-23 | new Plugin Weapon Ranges | Plugin got deleted or renamed <br>
-2024-03-23 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-03-23 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-03-23 | updated Plugin expert.crew.members | Plugin got deleted or renamed <br>
 2024-03-22 | updated Plugin Zoura's Outfits Expanded | Plugin got deleted or renamed <br>
 2024-03-22 | updated Plugin Blended Ships | Plugin got deleted or renamed <br>
@@ -353,15 +353,15 @@
 2024-03-19 | updated Plugin Blended Ships | Plugin got deleted or renamed <br>
 2024-03-17 | updated Plugin Blended Ships | Plugin got deleted or renamed <br>
 2024-03-16 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
-2024-03-15 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-03-15 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-03-15 | updated Plugin Unfettered Innovations | Plugin got deleted or renamed <br>
 2024-03-15 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2024-03-15 | updated Plugin real.fluff | Plugin got deleted or renamed <br>
 2024-03-15 | updated Plugin more.boarding.missions | Plugin got deleted or renamed <br>
 2024-03-15 | updated Plugin gegno.pirates | Plugin got deleted or renamed <br>
-2024-03-15 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2024-03-15 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
 2024-03-15 | updated Plugin unique.fix | Plugin got deleted or renamed <br>
-2024-03-14 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-03-14 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-03-14 | updated Plugin expert.crew.members | Plugin got deleted or renamed <br>
 2024-03-14 | updated Plugin snowfeather.robotics | Plugin got deleted or renamed <br>
 2024-03-13 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
@@ -369,7 +369,7 @@
 2024-03-13 | updated Plugin Midnight Expansion | Plugin got deleted or renamed <br>
 2024-03-12 | new Plugin too.many.asteroids | Plugin got deleted or renamed <br>
 2024-03-12 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
-2024-03-11 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-03-11 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-03-11 | updated Plugin High DPI | Plugin got deleted or renamed <br>
 2024-03-10 | new Plugin gegno.pirates | Plugin got deleted or renamed <br>
 2024-03-10 | updated Plugin Arion - Air Superiority | Plugin got deleted or renamed <br>
@@ -400,13 +400,13 @@
 2024-02-21 | updated Plugin Midnight Scrapyard | Plugin got deleted or renamed <br>
 2024-02-20 | updated Plugin Midnight Expansion | Plugin got deleted or renamed <br>
 2024-02-20 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
-2024-02-20 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2024-02-20 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2024-02-20 | updated Plugin Midnight Scrapyard | Plugin got deleted or renamed <br>
-2024-02-18 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2024-02-18 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2024-02-17 | updated Plugin High DPI | Plugin got deleted or renamed <br>
 2024-02-17 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-02-16 | updated Plugin Naltok | Plugin got deleted or renamed <br>
-2024-02-15 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2024-02-15 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
 2024-02-13 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-02-13 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
 2024-02-12 | updated Plugin Naltok | Plugin got deleted or renamed <br>
@@ -422,7 +422,7 @@
 2024-02-04 | updated Plugin too.many.asteroids | Plugin got deleted or renamed <br>
 2024-02-04 | updated Plugin Mil'taj Protectorate | Plugin got deleted or renamed <br>
 2024-02-03 | updated Plugin World Forge | Plugin got deleted or renamed <br>
-2024-02-02 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2024-02-02 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2024-02-01 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-02-01 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
 2024-01-28 | updated Plugin High DPI | Plugin got deleted or renamed <br>
@@ -627,16 +627,16 @@
 2023-10-17 | updated Plugin galactic.capital.investment | Plugin got deleted or renamed <br>
 2023-10-17 | updated Plugin snowfeather.robotics | Plugin got deleted or renamed <br>
 2023-10-17 | updated Plugin unique.fix | Plugin got deleted or renamed <br>
-2023-10-17 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
-2023-10-17 | updated Plugin 'automata.destruction.0percent' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
-2023-10-17 | updated Plugin 'automata.in.human.space' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2023-10-17 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
+2023-10-17 | updated Plugin 'automata.destruction.0percent' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#automata.destruction.0percent)<br>
+2023-10-17 | updated Plugin 'automata.in.human.space' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#automata.in.human.space)<br>
 2023-10-17 | updated Plugin real.fluff | Plugin got deleted or renamed <br>
-2023-10-17 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
-2023-10-17 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2023-10-17 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
+2023-10-17 | updated Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2023-10-17 | updated Plugin more.boarding.missions | Plugin got deleted or renamed <br>
 2023-10-17 | updated Plugin too.many.asteroids | Plugin got deleted or renamed <br>
 2023-10-17 | updated Plugin expert.crew.members | Plugin got deleted or renamed <br>
-2023-10-17 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2023-10-17 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
 2023-10-16 | updated Plugin Arion | Plugin got deleted or renamed <br>
 2023-10-15 | updated Plugin Fluff | Plugin got deleted or renamed <br>
 2023-10-15 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
@@ -689,8 +689,8 @@
 2023-09-17 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
 2023-09-17 | updated Plugin AES Fluff | Plugin got deleted or renamed <br>
 2023-09-17 | updated Plugin Fluff | Plugin got deleted or renamed <br>
-2023-09-15 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
-2023-09-15 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2023-09-15 | updated Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
+2023-09-15 | updated Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
 2023-09-14 | updated Plugin Arion | Plugin got deleted or renamed <br>
 2023-09-12 | updated Plugin AES Irm | Plugin got deleted or renamed <br>
 2023-09-11 | updated Plugin Ruin the Fun | Plugin got deleted or renamed <br>
@@ -698,12 +698,12 @@
 2023-09-10 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2023-09-09 | updated Plugin Endless-Endless-Sky | Plugin got deleted or renamed <br>
 2023-09-09 | updated Plugin All Content Plugin | Plugin got deleted or renamed <br>
-2023-09-09 | new Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2023-09-09 | new Plugin 'captureable.person.ships' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#captureable.person.ships)<br>
 2023-09-08 | updated Plugin Ruin the Fun | Plugin got deleted or renamed <br>
 2023-09-08 | updated Plugin AES Fluff | Plugin got deleted or renamed <br>
 2023-09-08 | updated Plugin AES Irm | Plugin got deleted or renamed <br>
 2023-09-08 | updated Plugin Fluff | Plugin got deleted or renamed <br>
-2023-09-07 | updated Plugin 'automata.destruction.0percent' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md)<br>
+2023-09-07 | updated Plugin 'automata.destruction.0percent' by zuckung | [cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md#automata.destruction.0percent)<br>
 2023-09-07 | updated Plugin AES Aben | Plugin got deleted or renamed <br>
 2023-09-07 | updated Plugin AES Irm | Plugin got deleted or renamed <br>
 2023-09-06 | updated Plugin Naltok | Plugin got deleted or renamed <br>
@@ -714,14 +714,14 @@
 2023-09-05 | updated Plugin more.boarding.missions | Plugin got deleted or renamed <br>
 2023-09-05 | updated Plugin Coalition-At-War | Plugin got deleted or renamed <br>
 2023-09-05 | updated Plugin AES Irm | Plugin got deleted or renamed <br>
-2023-09-03 | new Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
-2023-09-03 | new Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md)<br>
+2023-09-03 | new Plugin 'better.starts' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#better.starts)<br>
+2023-09-03 | new Plugin 'bunrodea.missions' by zuckung | [story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md#bunrodea.missions)<br>
 2023-09-02 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
 2023-09-02 | updated Plugin AES Fluff | Plugin got deleted or renamed <br>
 2023-09-02 | updated Plugin Fluff | Plugin got deleted or renamed <br>
 2023-09-01 | updated Plugin too.many.asteroids | Plugin got deleted or renamed <br>
 2023-09-01 | updated Plugin Naltok | Plugin got deleted or renamed <br>
-2023-09-01 | updated Plugin 'automata.in.human.space' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md)<br>
+2023-09-01 | updated Plugin 'automata.in.human.space' by zuckung | [gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md#automata.in.human.space)<br>
 2023-09-01 | updated Plugin more.boarding.missions | Plugin got deleted or renamed <br>
 2023-09-01 | updated Plugin Midnight Scrapyard | Plugin got deleted or renamed <br>
 2023-09-01 | updated Plugin kor.efret.shipyard | Plugin got deleted or renamed <br>
@@ -753,7 +753,7 @@
 2023-08-26 | updated Plugin Fluff | Plugin got deleted or renamed <br>
 2023-08-25 | updated Plugin galactic.capital.investment | Plugin got deleted or renamed <br>
 2023-08-24 | updated Plugin Moar Humanity | Plugin got deleted or renamed <br>
-2023-08-24 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2023-08-24 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2023-08-24 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2023-08-24 | updated Plugin Eternal Shuttle | Plugin got deleted or renamed <br>
 2023-08-23 | updated Plugin Naltok | Plugin got deleted or renamed <br>
@@ -819,7 +819,7 @@
 2023-08-05 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
 2023-08-05 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
 2023-08-05 | updated Plugin Ruin the Fun | Plugin got deleted or renamed <br>
-2023-08-05 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2023-08-05 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2023-08-05 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
 2023-08-05 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2023-08-04 | updated Plugin Ruin the Fun | Plugin got deleted or renamed <br>
@@ -829,7 +829,7 @@
 2023-08-03 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2023-08-03 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
 2023-08-02 | updated Plugin Kor Mereti Fluff | Plugin got deleted or renamed <br>
-2023-08-02 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2023-08-02 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2023-08-02 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
 2023-08-01 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
 2023-07-31 | updated Plugin Midnight Scrapyard | Plugin got deleted or renamed <br>
@@ -852,7 +852,7 @@
 2023-07-28 | updated Plugin Lost in Midnight | Plugin got deleted or renamed <br>
 2023-07-28 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
 2023-07-28 | updated Plugin Naltok | Plugin got deleted or renamed <br>
-2023-07-26 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2023-07-26 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2023-07-26 | updated Plugin Cromha Expansion | Plugin got deleted or renamed <br>
 2023-07-25 | updated Plugin Kor Mereti Fluff | Plugin got deleted or renamed <br>
 2023-07-25 | updated Plugin Ruin the Fun | Plugin got deleted or renamed <br>
@@ -977,7 +977,7 @@
 2023-07-07 | updated Plugin All Content Plugin | Plugin got deleted or renamed <br>
 2023-07-07 | updated Plugin Altera | Plugin got deleted or renamed <br>
 2023-07-07 | updated Plugin Outfit Highlighter | Plugin got deleted or renamed <br>
-2023-07-07 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2023-07-07 | updated Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md#additional.command.buttons)<br>
 2023-07-07 | updated Plugin Galactic War | Plugin got deleted or renamed <br>
 2023-07-07 | updated Plugin The Evora Navaiya | Plugin got deleted or renamed <br>
 2023-07-07 | updated Plugin Exporianes | Plugin got deleted or renamed <br>
