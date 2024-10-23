@@ -320,6 +320,7 @@ for cat in categories: # for each category
 					if each.lower().find("readme") != -1:
 						with open(pathtoplugins + pluginname + "/" + each) as readmefile:
 							readme = "<details>\n<summary>:blue_book: Plugin readme</summary>\n<blockquote>" + readmefile.read() + "\n</blockquote>\n</details>"
+							readme = readme.replace('~', '')
 					
 				file1.writelines(replacevarp(tempplug)) # write plugin template entry, exchanging %variables%
 		file1.writelines(tempcatdownt) # write lower category template
