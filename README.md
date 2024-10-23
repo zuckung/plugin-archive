@@ -5,6 +5,8 @@
 (latest 15 entries):
 <table><tr><td width=800>
 
+2024-10-23 | new Plugin 'Swiftclaws.additional.command.buttons' by swiftclaw | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
+2024-10-23 | new Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
 2024-10-23 | new Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
 2024-10-22 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-21 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
@@ -18,8 +20,6 @@
 2024-10-19 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-19 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 2024-10-19 | updated Plugin Tanager | Plugin got deleted or renamed <br>
-2024-10-16 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
-2024-10-16 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 
 </td></tr></table>
 Provide a direct link to your zipped plugin to enable automatic updating.<br>
@@ -61,7 +61,7 @@ Provide a direct link to your zipped plugin to enable automatic updating.<br>
 
 # Introduction
 
-A comprehensive library of 7 ancient and new plugins for the open-source game Endless Sky.
+A comprehensive library of 9 ancient and new plugins for the open-source game Endless Sky.
 
 ---
 
@@ -215,10 +215,10 @@ To keep these files related, you must give them the same name.
 
 # Plugin Download
 
-All Plugins (7)
+All Plugins (9)
 
 [Cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md) (1) | [Gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md) (2) | [Graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md) (2) | [Outfits](https://github.com/zuckung/plugin-archive/blob/main/res/mds/outfits.md) (0)<br>
-[Overhauls](https://github.com/zuckung/plugin-archive/blob/main/res/mds/overhauls.md) (0) | [Overwrites](https://github.com/zuckung/plugin-archive/blob/main/res/mds/overwrites.md) (0) | [Patches](https://github.com/zuckung/plugin-archive/blob/main/res/mds/patches.md) (0) | [Races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md) (0)<br>
+[Overhauls](https://github.com/zuckung/plugin-archive/blob/main/res/mds/overhauls.md) (0) | [Overwrites](https://github.com/zuckung/plugin-archive/blob/main/res/mds/overwrites.md) (0) | [Patches](https://github.com/zuckung/plugin-archive/blob/main/res/mds/patches.md) (0) | [Races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md) (2)<br>
 [Ships](https://github.com/zuckung/plugin-archive/blob/main/res/mds/ships.md) (0) | [Story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md) (1) | [Weapons](https://github.com/zuckung/plugin-archive/blob/main/res/mds/weapons.md) (0) | [Uncategorized](https://github.com/zuckung/plugin-archive/blob/main/res/mds/uncategorized.md) (1)<br>
 
 

@@ -1,3 +1,5 @@
+2024-10-23 | new Plugin 'Swiftclaws.additional.command.buttons' by swiftclaw | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
+2024-10-23 | new Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
 2024-10-23 | new Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
 2024-10-22 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
 2024-10-21 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
@@ -62,7 +64,7 @@
 2024-10-04 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
 2024-10-04 | updated Plugin Naltok | Plugin got deleted or renamed <br>
 2024-10-03 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-10-03 | updated Plugin Core Mining Inc | Plugin got deleted or renamed <br>
+2024-10-03 | updated Plugin 'Core Mining Inc' by DJF113 | [races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md)<br>
 2024-10-03 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
 2024-10-03 | updated Plugin Navy Campaign | Plugin got deleted or renamed <br>
 2024-10-03 | updated Plugin sensor | Plugin got deleted or renamed <br>
