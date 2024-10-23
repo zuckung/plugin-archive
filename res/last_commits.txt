@@ -5,3 +5,5 @@ automata.in.human.space|2024-09-24
 better.starts|2024-10-09
 bunrodea.missions|2024-06-26
 captureable.person.ships|2024-10-08
+Core Mining Inc|2024-10-03
+Swiftclaws.additional.command.buttons|2024-06-07
