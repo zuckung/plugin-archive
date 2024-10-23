@@ -1,0 +1,6 @@
+author=tester
+website=N/A
+directlink=N/A
+category=Cheats
+status=doesnt matter
+description= x woot x
