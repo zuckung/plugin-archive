@@ -1,7 +1,7 @@
 import os 
 
 content = os.environ['ISSUE_INPUT'] 
-	
+print(content)
 # read paths and files
 with open("res/config.txt") as f:
 	for line in f:
