@@ -5,21 +5,21 @@
 (latest 15 entries):
 <table><tr><td width=800>
 
+2024-10-23 | new Plugin 'additional.command.buttons' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
+2024-10-22 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
+2024-10-21 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
+2024-10-21 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
+2024-10-20 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
+2024-10-20 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin Arion - Air Superiority | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin Lemurias Extra ES Stuff | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin Cutlass | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
+2024-10-19 | updated Plugin Tanager | Plugin got deleted or renamed <br>
 2024-10-16 | updated Plugin Mega Freight | Plugin got deleted or renamed <br>
 2024-10-16 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
-2024-10-16 | updated Plugin Blended Ships | Plugin got deleted or renamed <br>
-2024-10-16 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-10-13 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
-2024-10-13 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-10-13 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
-2024-10-13 | updated Plugin Main Plot Plus | Plugin got deleted or renamed <br>
-2024-10-12 | updated Plugin Atlanteans | Plugin got deleted or renamed <br>
-2024-10-12 | updated Plugin Jibauni | Plugin got deleted or renamed <br>
-2024-10-12 | updated Plugin Gaguka | Plugin got deleted or renamed <br>
-2024-10-12 | updated Plugin Main Plot Plus | Plugin got deleted or renamed <br>
-2024-10-11 | new Plugin expert.crew.members | Plugin got deleted or renamed <br>
-2024-10-11 | updated Plugin -Omnis | Plugin got deleted or renamed <br>
-2024-10-11 | updated Plugin 'additional.command.buttons.radial' by zuckung | [graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md)<br>
 
 </td></tr></table>
 Provide a direct link to your zipped plugin to enable automatic updating.<br>
@@ -61,7 +61,7 @@ Provide a direct link to your zipped plugin to enable automatic updating.<br>
 
 # Introduction
 
-A comprehensive library of 6 ancient and new plugins for the open-source game Endless Sky.
+A comprehensive library of 7 ancient and new plugins for the open-source game Endless Sky.
 
 ---
 
@@ -215,9 +215,9 @@ To keep these files related, you must give them the same name.
 
 # Plugin Download
 
-All Plugins (6)
+All Plugins (7)
 
-[Cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md) (1) | [Gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md) (2) | [Graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md) (1) | [Outfits](https://github.com/zuckung/plugin-archive/blob/main/res/mds/outfits.md) (0)<br>
+[Cheats](https://github.com/zuckung/plugin-archive/blob/main/res/mds/cheats.md) (1) | [Gameplay](https://github.com/zuckung/plugin-archive/blob/main/res/mds/gameplay.md) (2) | [Graphics](https://github.com/zuckung/plugin-archive/blob/main/res/mds/graphics.md) (2) | [Outfits](https://github.com/zuckung/plugin-archive/blob/main/res/mds/outfits.md) (0)<br>
 [Overhauls](https://github.com/zuckung/plugin-archive/blob/main/res/mds/overhauls.md) (0) | [Overwrites](https://github.com/zuckung/plugin-archive/blob/main/res/mds/overwrites.md) (0) | [Patches](https://github.com/zuckung/plugin-archive/blob/main/res/mds/patches.md) (0) | [Races](https://github.com/zuckung/plugin-archive/blob/main/res/mds/races.md) (0)<br>
 [Ships](https://github.com/zuckung/plugin-archive/blob/main/res/mds/ships.md) (0) | [Story](https://github.com/zuckung/plugin-archive/blob/main/res/mds/story.md) (1) | [Weapons](https://github.com/zuckung/plugin-archive/blob/main/res/mds/weapons.md) (0) | [Uncategorized](https://github.com/zuckung/plugin-archive/blob/main/res/mds/uncategorized.md) (1)<br>
 
