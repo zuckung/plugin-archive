@@ -101,7 +101,7 @@ Daily update check: <img src='../img/check.png' width='15' ></img><br>
 
 [additional.command.buttons.radial.zip](https://github.com/zuckung/plugin-archive/releases/download/Latest/additional.command.buttons.radial.zip) | 166.73 kb | 2024-10-16 | [view files](https://github.com/zuckung/plugin-archive/tree/main/Working/additional.command.buttons.radial/) <br>
 Author: zuckung | Category: Graphics <br>
-[https://github.com/zuckung/endless-sky-plugins](https://github.com/zuckung/endless-sky-plugins) (last commit 2024-10-11) <br>
+[https://github.com/zuckung/endless-sky-plugins](https://github.com/zuckung/endless-sky-plugins) (last commit 2024-10-15) <br>
 
 >Made for the MOBILE ANDROID version. Adds several new buttons to the lower right corner. See the README for details.
 >
